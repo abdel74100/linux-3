@@ -1,0 +1,26 @@
+Abdel@AKH MINGW64 ~
+$ cd C:
+
+Abdel@AKH MINGW64 /c
+$ ls
+'$Recycle.Bin'/             msdia80.dll*
+'$WINDOWS.~BT'/             OneDriveTemp/
+'$Windows.~WS'/             pagefile.sys
+ dev/                       PerfLogs/
+'Documents and Settings'@   php.ini-development
+ ESD/                      'Program Files'/
+ exemple/                  'Program Files (x86)'/
+ Intel/                    'Wondershare Video Converter Ultimate'/
+ MAMP/                      Wondershare_DrFone_IOSRepair/
+ MAMPPRO/
+
+Abdel@AKH MINGW64 /c
+$ cd exemple
+
+Abdel@AKH MINGW64 /c/exemple
+$ ls
+'Abdel test.TXT'
+
+Abdel@AKH MINGW64 /c/exemple
+$ pwd
+/c/exemple
