@@ -1,0 +1,45 @@
+  111  mkdir wild
+  112  cd wild
+  113  clear
+  114  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  115  ls
+  116  uzip planets.zip
+  117  unzip planets.zip
+  118  ls
+  119  cd planets
+  121  ls
+  122  mkdir real fictional inhabited
+  123  ls
+  124  cd real
+  125  cd ..
+  126  mkdir -p telluric gas-giants dwarf-planets /real
+  127  cd real
+  128  mkdir  telluric gas-giants dwarf-planets
+  129  cd ..
+  130  ls
+  131  mv -t  jupiter.jpeg neptune.jpeg saturn.jpeg uranus.jpeg real/gas-giant
+  132  mv   jupiter.jpeg neptune.jpeg saturn.jpeg uranus.jpeg real/gas-giant
+  133  mv   jupiter.jpeg neptune.jpeg saturn.jpeg uranus.jpeg real/gas-giants
+  134  mv   mercury.jpeg mars.jpeg earth.jpeg venus.jpeg real/telluric
+  135  mv m pluto.jpeg real/dwarf-planets
+  136  mvv pluto.jpeg real/dwarf-planets
+  137  mv pluto.jpeg real/dwarf-planets
+  138  ls
+  139  mv arrakis.jpeg cybertron.jpeg coruscant.jpeg fictional
+  140  ls
+  141  cp real/telluric/earth.jpeg fictional/arrakis.jpeg fictional/coruscant.jpeg fictional/cybertron.jpeg inhabited/
+  141  cd inhabited
+  142  ls
+  143  cd..
+  144  cd ..
+  144  rm -r /real/dwarf-planets
+  145  rm -r /real/dwarf-planets/
+  146  ls
+  147  cd real
+  148  ls
+  149  rm -r dwarf-planets
+  150  ls
+  151  tree
+  152  history
+
+
