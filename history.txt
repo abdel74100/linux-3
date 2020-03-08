@@ -1,0 +1,10 @@
+  132  ls
+  133  grep "JavaScript;Toulouse" <wilders.csv > javascript_toulouse.csv
+  134  ls
+  135  grep "Toulouse" <javascript.csv >> js_toulouse.csv
+  136  grep "JavaScript" <wilders.csv > javascript.csv
+  137  grep "Biarritz" <javascript.csv > js_biarritz.csv
+  138  grep "Toulouse" <javascript.csv >> js_biarritz_toulouse.csv
+  139  ls
+  140  grep "Biarritz" <javascript.csv >> js_biarritz_toulouse.csv
+  141   history | tail >history.txt
